@@ -8,10 +8,10 @@ class BodyContent extends Component {
         width:"18rem"
       }
     return <>
-    <div className="container d-flex p-3 justify-content-center">   
+    <div className="container d-flex p-3 justify-content-center flex-wrap">   
             {db.map(item => {
             return (
-                <div className="card shadow p-3 md-3 round ms-3" style={w} key={item.key}>
+                <div className="card shadow p-3 md-3 round ms-3 mb-3" style={w} key={item.key}>
                     <img className="card-img-top" src={item.img} alt=""/>
                     <div className="card-body">
                         <Link to={"/Lorem1"} state={{item}}>
