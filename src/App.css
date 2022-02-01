@@ -1,0 +1,30 @@
+.container1{
+    height:fit-content;
+    padding: 50px;
+}
+.container1 img{
+float: right;
+height:200px;
+position: relative;
+top:-80px;
+}
+
+.relg{
+    position: relative;
+    top:-30px;
+}
+
+@media screen and (max-width:600px){
+    .imgcr{
+        width:90%;
+        margin-right:30px;
+    }
+}
+
+
+@media screen and (max-width:480px){
+    .imgcr{
+        width:90%;
+        margin-right:15px;
+    }
+}
